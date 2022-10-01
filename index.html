@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Omnifood is an AI-powered food description that will make you eat healthy again, 365days per year. Its tailored to your personal tastesritional needs">
+    <link rel="shortcut icon" href="img/favicon (2).png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +18,7 @@
 
     <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <script defer src="js/script.js"></script>
-    <title>Omnifood</title>
+    <title>Omnifood &mdash; Never cook again</title>
 </head>
 
 <body>
@@ -81,7 +85,12 @@
                 </div>
 
                 <div class="hero-img-box">
-                    <img src="img/hero.png" class="hero-img" alt="Woman enjoying food, meals in storage container, and food bwls on a table">
+                    <picture>
+                        <source srcset="img/hero.webp" type="image/webp">
+                        <source srcset="img/hero-min.png" type="image/png">
+                        <img src="img/hero-min.png" class="hero-img" alt="Woman enjoying food, meals in storage container, and food bwls on a table">
+                    </picture>
+
                 </div>
             </div>
         </section>
