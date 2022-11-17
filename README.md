@@ -1,2 +1,2 @@
 # Omnifood AI
-### Tried implementing a perfect food website [omnifood](www.omnifood.dev) using HTML , CSS and JavaScript
+### Tried implementing a perfect food website [omnifood](https://ivan-omnifood.netlify.app/) using HTML , CSS and JavaScript
